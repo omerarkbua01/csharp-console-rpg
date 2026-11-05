@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{077D10DB-A8A7-4F1F-B6D2-E5A842AAE7CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRpg", "src\ConsoleRpg\ConsoleRpg.csproj", "{FF407A6D-FBCA-4F25-B71D-71361AF34657}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C490AA8B-1EE5-4892-94CD-8B6437A124DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRpg.Tests", "tests\ConsoleRpg.Tests\ConsoleRpg.Tests.csproj", "{B80B358B-9404-4B56-8DAB-3F03DD9D639F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF407A6D-FBCA-4F25-B71D-71361AF34657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF407A6D-FBCA-4F25-B71D-71361AF34657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF407A6D-FBCA-4F25-B71D-71361AF34657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF407A6D-FBCA-4F25-B71D-71361AF34657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80B358B-9404-4B56-8DAB-3F03DD9D639F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80B358B-9404-4B56-8DAB-3F03DD9D639F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80B358B-9404-4B56-8DAB-3F03DD9D639F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80B358B-9404-4B56-8DAB-3F03DD9D639F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF407A6D-FBCA-4F25-B71D-71361AF34657} = {077D10DB-A8A7-4F1F-B6D2-E5A842AAE7CC}
+		{B80B358B-9404-4B56-8DAB-3F03DD9D639F} = {C490AA8B-1EE5-4892-94CD-8B6437A124DF}
+	EndGlobalSection
+EndGlobal
